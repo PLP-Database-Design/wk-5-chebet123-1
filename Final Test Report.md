@@ -188,7 +188,7 @@ Improve documentation of environment setup and test data.
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
 | MERCY CHEBET | Test Manager | DONE| 28/10/2025 |
-| EMILY AWUOR | Risk Analyst | DONE| |28/10/2025
+| EMILY AWUOR | Risk Analyst | DONE| 28/10/2025 |
 | HORACE WITABA | Test Executor |DONE |28/10/2025 |
 
 ## Overall Summary

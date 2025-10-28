@@ -11,9 +11,9 @@
 
 | Role | Name | Responsibilities |
 |------|------|------------------|
-| Test Manager | | Planning, scheduling, coordination, metric tracking |
-| Risk Analyst | | Risk identification, prioritization, test design linkage |
-| Test Executor | | Execution, evidence capture, defect logging |
+| Test Manager | MERCY CHEBET | Planning, scheduling, coordination, metric tracking |
+| Risk Analyst | EMILY AWUOR | Risk identification, prioritization, test design linkage |
+| Test Executor | HORACE WITABA | Execution, evidence capture, defect logging |
 
 ## Group Rules
 
@@ -39,25 +39,34 @@
 
 ### Objectives
 
-- 
+- Ensure the game logic works, scoring updates correctly, leaderboard persists. To verify the correct functionality, reliability, and usability of the Word Puzzle Game Plus, focusing on new features; Reset Game, Leaderboard, and Bonus Round; ensuring they meet user and technical requirements. 
 
 ### Scope
 
 **In Scope:**
-- 
+- UI, game logic, leaderboard
+- Reset functionality (resetGame())
+- Leaderboard persistence and sorting (getLeaderboard(), setLeaderboard(), updateLeaderboard())
+- Bonus round scoring (checkGuess())
+- Game logic integrity, UI updates, and localStorage handling
 
 **Out of Scope:**
-- 
+- non-game UI, backend
+- Network connectivity (offline only), accessibility beyond basic usability, and browser compatibility beyond Chrome
 
 ### Tools & Resources
 
-- 
+- VS Code, GitHub, Chrome, Jira
+- Test Manager, Risk Analyst, Test Executor
 
 ### Schedule
 
 | Phase | Planned Duration | Actual Duration | Status |
 |-------|------------------|-----------------|--------|
-| | | | |
+| Planning| 2 days| 2 days| Test Plan & Risk Matrix|
+| Risk Analysis| 2 days| 2 days| Test Cases & Scripts|
+| Execution| 2 days| 1 day | Test Results & Defect|
+
 
 ## Risk Analysis
 
@@ -117,18 +126,20 @@
 
 ## Attachments
 
-- 
+- https://github.com/PLP-Database-Design/wk-5-chebet123-1/issues/2#issue-3559887911
+- https://github.com/PLP-Database-Design/wk-5-chebet123-1/issues/3#issue-3559909561
+- https://github.com/PLP-Database-Design/wk-5-chebet123-1/issues/4#issue-3559926042
 
 ## Sign Off
 
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
-| | Test Manager | | |
-| | Risk Analyst | | |
-| | Test Executor | | |
+| MERCY CHEBET | Test Manager | MC | 28/10/2025 |
+| EMILY AWUOR | Risk Analyst | | |
+| HORACE WITABA | Test Executor | | |
 
 ## Overall Summary
 
 **Statement:** 
 
-**Test Status:** ☐ Completed / ☐ In Progress / ☐ Deferred
+**Test Status:** ✅ Completed / ☐ In Progress / ☐ Deferred
